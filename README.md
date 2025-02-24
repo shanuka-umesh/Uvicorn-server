@@ -1,1 +1,3 @@
-### This is a ssimple web application on uvicorn server
+### This is a simple web application on uvicorn server
+
+FastAPI + Uvicorn 
