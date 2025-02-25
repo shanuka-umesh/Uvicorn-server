@@ -1,0 +1,245 @@
+2025-02-25T10:28:29.132804+0530 - INFO - FastAPI Application is starting...
+2025-02-25T10:28:29.136176+0530 - INFO - ⚡ Server is starting...
+2025-02-25T10:28:29.184205+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T10:28:30.192878+0530 - INFO - System Stats: CPU 3.5% | RAM 83.6% | Disk 91.4%
+2025-02-25T10:28:52.557182+0530 - INFO - ➡ Incoming Request: GET http://127.0.0.1:8000/
+2025-02-25T10:28:52.557182+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T10:28:52.561171+0530 - INFO - Processing homepage request with name: Guest
+2025-02-25T10:28:52.565161+0530 - INFO - Response Sent: 200 (Processed in 0.0080 seconds)
+2025-02-25T10:29:09.654773+0530 - INFO - ➡ Incoming Request: GET http://127.0.0.1:8000/product/3
+2025-02-25T10:29:09.655772+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T10:29:09.656893+0530 - INFO - Fetching Product: ID 3
+2025-02-25T10:29:09.661052+0530 - INFO - Response Sent: 200 (Processed in 0.0063 seconds)
+2025-02-25T10:29:31.199231+0530 - INFO - System Stats: CPU 13.5% | RAM 86.5% | Disk 91.4%
+2025-02-25T10:30:32.195415+0530 - INFO - System Stats: CPU 10.1% | RAM 90.5% | Disk 91.4%
+2025-02-25T10:31:33.221185+0530 - INFO - System Stats: CPU 22.2% | RAM 91.8% | Disk 91.4%
+2025-02-25T10:32:34.243669+0530 - INFO - System Stats: CPU 11.8% | RAM 89.1% | Disk 91.4%
+2025-02-25T10:33:35.248931+0530 - INFO - System Stats: CPU 11.8% | RAM 82.9% | Disk 91.4%
+2025-02-25T10:34:36.266980+0530 - INFO - System Stats: CPU 3.5% | RAM 84.6% | Disk 91.4%
+2025-02-25T10:35:37.288707+0530 - INFO - System Stats: CPU 4.1% | RAM 83.9% | Disk 91.4%
+2025-02-25T10:36:38.279000+0530 - INFO - System Stats: CPU 3.4% | RAM 85.3% | Disk 91.4%
+2025-02-25T10:37:39.301701+0530 - INFO - System Stats: CPU 10.3% | RAM 84.8% | Disk 91.4%
+2025-02-25T10:38:40.297385+0530 - INFO - System Stats: CPU 6.3% | RAM 83.6% | Disk 91.4%
+2025-02-25T10:39:41.294989+0530 - INFO - System Stats: CPU 9.2% | RAM 84.1% | Disk 91.4%
+2025-02-25T10:40:42.305025+0530 - INFO - System Stats: CPU 23.4% | RAM 88.3% | Disk 91.4%
+2025-02-25T10:41:43.308918+0530 - INFO - System Stats: CPU 19.7% | RAM 90.3% | Disk 91.4%
+2025-02-25T10:42:44.324664+0530 - INFO - System Stats: CPU 12.5% | RAM 90.8% | Disk 91.4%
+2025-02-25T10:43:45.338315+0530 - INFO - System Stats: CPU 21.7% | RAM 94.9% | Disk 91.4%
+2025-02-25T10:44:46.351269+0530 - INFO - System Stats: CPU 8.5% | RAM 90.7% | Disk 91.4%
+2025-02-25T10:44:53.256134+0530 - INFO - Application is shutting down...
+2025-02-25T10:45:44.495517+0530 - INFO - FastAPI Application is starting...
+2025-02-25T10:51:57.320794+0530 - INFO - FastAPI Application is starting...
+2025-02-25T10:51:57.324902+0530 - INFO - ⚡ Server is starting...
+2025-02-25T10:51:57.385910+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T10:51:58.393524+0530 - INFO - System Stats: CPU 10.7% | RAM 90.3% | Disk 91.4%
+2025-02-25T10:52:18.133934+0530 - INFO - ➡ Incoming Request: GET http://127.0.0.1:8000/
+2025-02-25T10:52:18.134932+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/product/3', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T10:52:18.138073+0530 - INFO - Processing homepage request with name: Guest
+2025-02-25T10:52:18.142304+0530 - INFO - Response Sent: 200 (Processed in 0.0084 seconds)
+2025-02-25T10:52:59.414439+0530 - INFO - System Stats: CPU 14.9% | RAM 91.7% | Disk 91.4%
+2025-02-25T10:54:00.439961+0530 - INFO - System Stats: CPU 9.6% | RAM 90.9% | Disk 91.4%
+2025-02-25T10:54:45.994713+0530 - INFO - Application is shutting down...
+2025-02-25T10:54:47.163784+0530 - INFO - FastAPI Application is starting...
+2025-02-25T10:54:47.168943+0530 - INFO - ⚡ Server is starting...
+2025-02-25T10:54:47.244143+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T10:54:48.247999+0530 - INFO - System Stats: CPU 15.4% | RAM 91.4% | Disk 91.4%
+2025-02-25T10:55:49.269751+0530 - INFO - System Stats: CPU 5.7% | RAM 90.5% | Disk 91.4%
+2025-02-25T10:56:50.291227+0530 - INFO - System Stats: CPU 10.7% | RAM 91.4% | Disk 91.4%
+2025-02-25T10:57:51.299781+0530 - INFO - System Stats: CPU 3.7% | RAM 84.7% | Disk 91.4%
+2025-02-25T10:58:52.320178+0530 - INFO - System Stats: CPU 3.5% | RAM 84.5% | Disk 91.4%
+2025-02-25T10:59:53.333586+0530 - INFO - System Stats: CPU 2.7% | RAM 84.5% | Disk 91.4%
+2025-02-25T11:00:54.333288+0530 - INFO - System Stats: CPU 77.6% | RAM 86.6% | Disk 91.4%
+2025-02-25T11:01:55.324240+0530 - INFO - System Stats: CPU 10.9% | RAM 87.8% | Disk 91.4%
+2025-02-25T11:02:00.031777+0530 - INFO - Application is shutting down...
+2025-02-25T11:02:01.802782+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:02:01.805914+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:02:01.864781+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:02:02.868449+0530 - INFO - System Stats: CPU 23.4% | RAM 88.3% | Disk 91.4%
+2025-02-25T11:03:03.874281+0530 - INFO - System Stats: CPU 3.5% | RAM 84.7% | Disk 91.4%
+2025-02-25T11:04:04.877462+0530 - INFO - System Stats: CPU 1.2% | RAM 84.7% | Disk 91.4%
+2025-02-25T11:05:05.895241+0530 - INFO - System Stats: CPU 3.5% | RAM 84.8% | Disk 91.4%
+2025-02-25T11:06:06.904634+0530 - INFO - System Stats: CPU 2.9% | RAM 84.7% | Disk 91.4%
+2025-02-25T11:07:07.930916+0530 - INFO - System Stats: CPU 37.6% | RAM 88.5% | Disk 91.5%
+2025-02-25T11:08:08.940398+0530 - INFO - System Stats: CPU 39.8% | RAM 88.1% | Disk 91.5%
+2025-02-25T11:09:09.964364+0530 - INFO - System Stats: CPU 31.6% | RAM 86.9% | Disk 91.5%
+2025-02-25T11:09:19.559761+0530 - INFO - Application is shutting down...
+2025-02-25T11:09:20.722513+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:09:20.726650+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:09:20.780379+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:09:21.784538+0530 - INFO - System Stats: CPU 22.0% | RAM 85.6% | Disk 91.5%
+2025-02-25T11:10:22.804340+0530 - INFO - System Stats: CPU 14.5% | RAM 84.9% | Disk 91.5%
+2025-02-25T11:11:23.814942+0530 - INFO - System Stats: CPU 23.3% | RAM 88.5% | Disk 91.5%
+2025-02-25T11:12:24.838282+0530 - INFO - System Stats: CPU 6.0% | RAM 84.8% | Disk 91.5%
+2025-02-25T11:13:25.869222+0530 - INFO - System Stats: CPU 12.6% | RAM 85.2% | Disk 91.5%
+2025-02-25T11:14:26.890920+0530 - INFO - System Stats: CPU 8.5% | RAM 86.2% | Disk 91.5%
+2025-02-25T11:15:27.907954+0530 - INFO - System Stats: CPU 3.5% | RAM 85.1% | Disk 91.5%
+2025-02-25T11:16:28.928129+0530 - INFO - System Stats: CPU 3.9% | RAM 86.6% | Disk 91.5%
+2025-02-25T11:17:29.906382+0530 - INFO - System Stats: CPU 7.5% | RAM 84.8% | Disk 91.5%
+2025-02-25T11:18:30.926534+0530 - INFO - System Stats: CPU 3.3% | RAM 83.9% | Disk 91.5%
+2025-02-25T11:19:31.946776+0530 - INFO - System Stats: CPU 6.0% | RAM 83.8% | Disk 91.5%
+2025-02-25T11:20:32.958495+0530 - INFO - System Stats: CPU 4.3% | RAM 84.7% | Disk 91.5%
+2025-02-25T11:21:33.957265+0530 - INFO - System Stats: CPU 3.5% | RAM 85.3% | Disk 91.5%
+2025-02-25T11:22:34.962220+0530 - INFO - System Stats: CPU 7.4% | RAM 84.5% | Disk 91.5%
+2025-02-25T11:23:35.969293+0530 - INFO - System Stats: CPU 8.2% | RAM 84.3% | Disk 91.5%
+2025-02-25T11:24:36.989678+0530 - INFO - System Stats: CPU 12.4% | RAM 86.0% | Disk 91.5%
+2025-02-25T11:25:37.995727+0530 - INFO - System Stats: CPU 13.5% | RAM 86.7% | Disk 91.5%
+2025-02-25T11:26:39.022705+0530 - INFO - System Stats: CPU 13.4% | RAM 89.0% | Disk 91.5%
+2025-02-25T11:27:36.220691+0530 - INFO - Application is shutting down...
+2025-02-25T11:27:38.340850+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:27:38.346181+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:27:38.397972+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:27:39.406137+0530 - INFO - System Stats: CPU 6.4% | RAM 83.0% | Disk 91.5%
+2025-02-25T11:27:49.888374+0530 - INFO - Application is shutting down...
+2025-02-25T11:27:51.024197+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:27:51.029360+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:27:51.079223+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:27:52.096535+0530 - INFO - System Stats: CPU 6.4% | RAM 83.3% | Disk 91.5%
+2025-02-25T11:28:03.110862+0530 - INFO - System Stats: CPU 14.3% | RAM 82.9% | Disk 91.5%
+2025-02-25T11:28:14.115526+0530 - INFO - System Stats: CPU 11.5% | RAM 83.1% | Disk 91.5%
+2025-02-25T11:28:25.121464+0530 - INFO - System Stats: CPU 11.3% | RAM 85.9% | Disk 91.5%
+2025-02-25T11:28:28.845123+0530 - INFO - Application is shutting down...
+2025-02-25T11:28:39.251916+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:28:39.256143+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:28:39.307303+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:28:40.313653+0530 - INFO - System Stats: CPU 9.0% | RAM 87.1% | Disk 91.5%
+2025-02-25T11:28:51.321059+0530 - INFO - System Stats: CPU 4.1% | RAM 87.1% | Disk 91.5%
+2025-02-25T11:29:02.351145+0530 - INFO - System Stats: CPU 12.0% | RAM 86.8% | Disk 91.5%
+2025-02-25T11:29:13.366698+0530 - INFO - System Stats: CPU 11.7% | RAM 88.3% | Disk 91.5%
+2025-02-25T11:29:20.600754+0530 - INFO - Application is shutting down...
+2025-02-25T11:29:21.729703+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:29:21.736884+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:29:21.784802+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:29:22.789147+0530 - INFO - System Stats: CPU 8.7% | RAM 88.1% | Disk 91.5%
+2025-02-25T11:30:23.804502+0530 - INFO - System Stats: CPU 12.7% | RAM 89.2% | Disk 91.5%
+2025-02-25T11:31:24.841771+0530 - INFO - System Stats: CPU 5.4% | RAM 86.9% | Disk 91.5%
+2025-02-25T11:32:25.868355+0530 - INFO - System Stats: CPU 16.4% | RAM 84.6% | Disk 91.5%
+2025-02-25T11:33:26.884369+0530 - INFO - System Stats: CPU 8.3% | RAM 84.2% | Disk 91.5%
+2025-02-25T11:34:27.898674+0530 - INFO - System Stats: CPU 8.7% | RAM 85.1% | Disk 91.5%
+2025-02-25T11:34:36.610617+0530 - INFO - Application is shutting down...
+2025-02-25T11:34:37.903073+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:34:37.907295+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:34:37.959991+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:34:38.965770+0530 - INFO - System Stats: CPU 18.4% | RAM 87.9% | Disk 91.5%
+2025-02-25T11:35:17.388461+0530 - INFO - Application is shutting down...
+2025-02-25T11:35:18.596144+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:35:18.617396+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:35:18.671052+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:35:19.679835+0530 - INFO - System Stats: CPU 10.3% | RAM 89.1% | Disk 91.5%
+2025-02-25T11:35:21.698361+0530 - INFO - System Stats: CPU 17.8% | RAM 89.1% | Disk 91.5%
+2025-02-25T11:35:23.714867+0530 - INFO - System Stats: CPU 10.5% | RAM 89.2% | Disk 91.5%
+2025-02-25T11:35:25.735477+0530 - INFO - System Stats: CPU 8.4% | RAM 89.2% | Disk 91.5%
+2025-02-25T11:35:27.757770+0530 - INFO - System Stats: CPU 11.6% | RAM 89.1% | Disk 91.5%
+2025-02-25T11:35:29.771248+0530 - INFO - System Stats: CPU 12.6% | RAM 88.3% | Disk 91.5%
+2025-02-25T11:35:31.798805+0530 - INFO - System Stats: CPU 14.2% | RAM 88.3% | Disk 91.5%
+2025-02-25T11:35:33.777787+0530 - INFO - System Stats: CPU 14.5% | RAM 88.4% | Disk 91.5%
+2025-02-25T11:35:35.792551+0530 - INFO - System Stats: CPU 9.0% | RAM 88.4% | Disk 91.5%
+2025-02-25T11:35:37.783774+0530 - INFO - System Stats: CPU 8.8% | RAM 88.4% | Disk 91.5%
+2025-02-25T11:35:39.797466+0530 - INFO - System Stats: CPU 39.9% | RAM 89.5% | Disk 91.5%
+2025-02-25T11:35:41.817335+0530 - INFO - System Stats: CPU 22.6% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:43.831642+0530 - INFO - System Stats: CPU 14.0% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:45.812714+0530 - INFO - System Stats: CPU 33.8% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:47.833243+0530 - INFO - System Stats: CPU 17.2% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:49.824784+0530 - INFO - System Stats: CPU 15.0% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:51.852469+0530 - INFO - System Stats: CPU 10.6% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:53.882838+0530 - INFO - System Stats: CPU 19.5% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:55.902709+0530 - INFO - System Stats: CPU 12.6% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:57.928640+0530 - INFO - System Stats: CPU 13.4% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:35:59.955413+0530 - INFO - System Stats: CPU 10.1% | RAM 88.9% | Disk 91.5%
+2025-02-25T11:36:01.966648+0530 - INFO - System Stats: CPU 49.4% | RAM 89.0% | Disk 91.5%
+2025-02-25T11:36:03.964004+0530 - INFO - System Stats: CPU 11.2% | RAM 89.1% | Disk 91.5%
+2025-02-25T11:36:05.984936+0530 - INFO - System Stats: CPU 9.7% | RAM 89.0% | Disk 91.5%
+2025-02-25T11:36:08.005198+0530 - INFO - System Stats: CPU 43.9% | RAM 89.0% | Disk 91.5%
+2025-02-25T11:36:09.996713+0530 - INFO - System Stats: CPU 10.8% | RAM 89.2% | Disk 91.5%
+2025-02-25T11:36:12.020341+0530 - INFO - System Stats: CPU 11.1% | RAM 89.7% | Disk 91.5%
+2025-02-25T11:36:14.030839+0530 - INFO - System Stats: CPU 16.9% | RAM 89.7% | Disk 91.5%
+2025-02-25T11:36:14.031926+0530 - INFO - Application is shutting down...
+2025-02-25T11:36:15.129997+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:36:15.135134+0530 - INFO - ⚡ Server is starting...
+2025-02-25T11:36:15.184882+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:36:16.192451+0530 - INFO - System Stats: CPU 13.5% | RAM 89.7% | Disk 91.5%
+2025-02-25T11:36:51.007031+0530 - INFO - Application is shutting down...
+2025-02-25T11:36:52.086848+0530 - INFO - FastAPI Application is starting...
+2025-02-25T11:36:52.091873+0530 - INFO -  Server is starting...
+2025-02-25T11:36:52.145662+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T11:36:53.149907+0530 - INFO - System Stats: CPU 20.5% | RAM 89.8% | Disk 91.5%
+2025-02-25T11:37:54.172239+0530 - INFO - System Stats: CPU 9.9% | RAM 88.6% | Disk 91.5%
+2025-02-25T11:38:55.193172+0530 - INFO - System Stats: CPU 2.9% | RAM 84.9% | Disk 91.5%
+2025-02-25T11:39:56.192449+0530 - INFO - System Stats: CPU 2.1% | RAM 85.1% | Disk 91.5%
+2025-02-25T11:40:57.203805+0530 - INFO - System Stats: CPU 3.3% | RAM 85.5% | Disk 91.5%
+2025-02-25T11:41:58.214863+0530 - INFO - System Stats: CPU 75.0% | RAM 87.0% | Disk 91.6%
+2025-02-25T11:42:59.231838+0530 - INFO - System Stats: CPU 31.5% | RAM 89.2% | Disk 92.4%
+2025-02-25T11:44:00.240617+0530 - INFO - System Stats: CPU 6.4% | RAM 85.4% | Disk 91.7%
+2025-02-25T11:44:44.696173+0530 - INFO - Application is shutting down...
+2025-02-25T12:06:34.092491+0530 - INFO - FastAPI Application is starting...
+2025-02-25T12:06:34.096652+0530 - INFO -  Server is starting...
+2025-02-25T12:06:34.162290+0530 - INFO - System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-25T12:06:35.167321+0530 - INFO - System Stats: CPU 9.9% | RAM 87.8% | Disk 91.9%
+2025-02-25T12:06:38.095206+0530 - INFO - ➡ Incoming Request: GET http://127.0.0.1:8000/product/2
+2025-02-25T12:06:38.096203+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:06:38.098206+0530 - INFO - Fetching Product: ID 2
+2025-02-25T12:06:38.354458+0530 - INFO - Response Sent: 200 (Processed in 0.2593 seconds)
+2025-02-25T12:07:18.282534+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:18.283530+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:18.284525+0530 - INFO - Product added to cart: Smartphone (ID: 2)
+2025-02-25T12:07:18.285522+0530 - INFO - Response Sent: 200 (Processed in 0.0030 seconds)
+2025-02-25T12:07:20.433925+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:20.434928+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:20.436919+0530 - INFO - Product added to cart: Smartphone (ID: 2)
+2025-02-25T12:07:20.437958+0530 - INFO - Response Sent: 200 (Processed in 0.0040 seconds)
+2025-02-25T12:07:21.996843+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:21.997949+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:21.998984+0530 - INFO - Product added to cart: Smartphone (ID: 2)
+2025-02-25T12:07:21.998984+0530 - INFO - Response Sent: 200 (Processed in 0.0021 seconds)
+2025-02-25T12:07:22.494906+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:22.494906+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:22.497024+0530 - INFO - Product added to cart: Smartphone (ID: 2)
+2025-02-25T12:07:22.497143+0530 - INFO - Response Sent: 200 (Processed in 0.0022 seconds)
+2025-02-25T12:07:22.850587+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:22.850587+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:22.851668+0530 - INFO - Product added to cart: Smartphone (ID: 2)
+2025-02-25T12:07:22.851668+0530 - INFO - Response Sent: 200 (Processed in 0.0011 seconds)
+2025-02-25T12:07:23.318186+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:23.319367+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:23.320366+0530 - INFO - Response Sent: 429 (Processed in 0.0022 seconds)
+2025-02-25T12:07:23.697868+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:23.697868+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:23.700033+0530 - INFO - Response Sent: 429 (Processed in 0.0022 seconds)
+2025-02-25T12:07:24.043036+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:24.044147+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:24.045145+0530 - INFO - Response Sent: 429 (Processed in 0.0021 seconds)
+2025-02-25T12:07:24.424613+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:24.428998+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:24.431104+0530 - INFO - Response Sent: 429 (Processed in 0.0065 seconds)
+2025-02-25T12:07:25.193750+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:25.193750+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:25.194812+0530 - INFO - Response Sent: 429 (Processed in 0.0011 seconds)
+2025-02-25T12:07:25.568716+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:25.568716+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:25.570790+0530 - INFO - Response Sent: 429 (Processed in 0.0021 seconds)
+2025-02-25T12:07:25.958087+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:25.958087+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:25.959083+0530 - INFO - Response Sent: 429 (Processed in 0.0010 seconds)
+2025-02-25T12:07:27.551537+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:27.551537+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:27.553648+0530 - INFO - Response Sent: 429 (Processed in 0.0021 seconds)
+2025-02-25T12:07:30.289814+0530 - INFO - ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/2
+2025-02-25T12:07:30.290853+0530 - DEBUG - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-25T12:07:30.293841+0530 - INFO - Response Sent: 429 (Processed in 0.0040 seconds)
+2025-02-25T12:07:36.151321+0530 - INFO - System Stats: CPU 29.5% | RAM 85.7% | Disk 91.9%
+2025-02-25T12:08:37.175695+0530 - INFO - System Stats: CPU 12.6% | RAM 88.2% | Disk 91.9%
+2025-02-25T12:09:38.194758+0530 - INFO - System Stats: CPU 13.0% | RAM 88.1% | Disk 91.9%
+2025-02-25T12:10:39.206403+0530 - INFO - System Stats: CPU 8.9% | RAM 88.5% | Disk 91.9%
+2025-02-25T12:11:40.203596+0530 - INFO - System Stats: CPU 7.7% | RAM 85.1% | Disk 91.9%
+2025-02-25T12:12:41.210345+0530 - INFO - System Stats: CPU 1.9% | RAM 85.9% | Disk 91.9%
+2025-02-25T12:13:42.241178+0530 - INFO - System Stats: CPU 8.3% | RAM 86.7% | Disk 91.9%
+2025-02-25T12:14:43.249965+0530 - INFO - System Stats: CPU 12.5% | RAM 85.0% | Disk 91.9%
+2025-02-25T12:15:44.247021+0530 - INFO - System Stats: CPU 10.0% | RAM 84.6% | Disk 91.9%
+2025-02-25T12:16:45.270649+0530 - INFO - System Stats: CPU 20.8% | RAM 86.4% | Disk 91.9%
+2025-02-25T12:17:46.283058+0530 - INFO - System Stats: CPU 13.2% | RAM 84.1% | Disk 91.9%
+2025-02-25T12:18:47.300049+0530 - INFO - System Stats: CPU 6.2% | RAM 84.4% | Disk 91.9%
+2025-02-25T12:19:48.308331+0530 - INFO - System Stats: CPU 10.8% | RAM 85.3% | Disk 91.9%
+2025-02-25T12:20:49.336968+0530 - INFO - System Stats: CPU 10.5% | RAM 84.3% | Disk 91.9%
+2025-02-25T12:21:50.367046+0530 - INFO - System Stats: CPU 4.3% | RAM 85.1% | Disk 91.9%
+2025-02-25T12:22:51.402676+0530 - INFO - System Stats: CPU 8.9% | RAM 83.9% | Disk 91.9%
+2025-02-25T12:23:52.432965+0530 - INFO - System Stats: CPU 2.9% | RAM 84.1% | Disk 91.9%
+2025-02-25T12:24:53.440303+0530 - INFO - System Stats: CPU 6.2% | RAM 83.9% | Disk 91.9%
