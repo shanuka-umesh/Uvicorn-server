@@ -1,16 +1,18 @@
-from loguru import logger
 import time
 import os
 import platform
-import psutil  # For system monitoring
+import psutil
 import asyncio
+import logging
 import uvicorn
-from fastapi import FastAPI, Request, Response, BackgroundTasks
+from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
+from loguru import logger
 from slowapi import Limiter
 from slowapi.util import get_remote_address
+from slowapi.middleware import SlowAPIMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 
 # Create logs directory if not exists
@@ -20,8 +22,17 @@ os.makedirs(LOG_DIR, exist_ok=True)
 # Configure Loguru Logging
 LOG_FILE = os.path.join(LOG_DIR, "server.log")
 logger.remove()
-logger.add(LOG_FILE, level="TRACE", format="{time} - {level} - {message}")
-logger.add("sys.stderr", level="DEBUG", format="{time} - {level} - {message}")
+logger.add(LOG_FILE, level="TRACE", format="{time:YYYY-MM-DD hh:mm:ss A} | {level} | {message}", rotation="10MB", compression="zip")
+
+# Redirect standard logging to Loguru
+class InterceptHandler(logging.Handler):
+    def emit(self, record):
+        logger_opt = logger.opt(depth=6, exception=record.exc_info)
+        logger_opt.log(record.levelno, record.getMessage())
+
+logging.basicConfig(handlers=[InterceptHandler()], level=logging.NOTSET)
+for log_name in ["uvicorn", "uvicorn.error", "uvicorn.access"]:
+    logging.getLogger(log_name).handlers = [InterceptHandler()]
 
 # FastAPI Application
 app = FastAPI()
@@ -29,6 +40,8 @@ app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 # Rate Limiting
 limiter = Limiter(key_func=get_remote_address)
+app.state.limiter = limiter
+app.add_middleware(SlowAPIMiddleware)
 
 # Static Files & Templates
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -42,20 +55,19 @@ DUMMY_PRODUCTS = [
 
 logger.info("FastAPI Application is starting...")
 
-# System Stats Logging
-async def log_system_stats():
+# Server Resource Usage Logging
+async def log_server_stats():
+    process = psutil.Process(os.getpid())
     while True:
+        cpu_usage = process.cpu_percent(interval=1)
+        memory_info = process.memory_info().rss / (1024 ** 2)  # Convert to MB
+        logger.info(f"Server Stats: CPU {cpu_usage}% | Memory {memory_info:.2f}MB")
+        await asyncio.sleep(30)
 
-        cpu_usage = psutil.cpu_percent(interval=1)
-        memory_info = psutil.virtual_memory()
-        disk_usage = psutil.disk_usage("/")
-        logger.info(f"System Stats: CPU {cpu_usage}% | RAM {memory_info.percent}% | Disk {disk_usage.percent}%")
-        await asyncio.sleep(60)  # Non-blocking sleep
-
-# Startup Event
+# Use FastAPI lifespan for startup and shutdown
 @app.on_event("startup")
 async def startup_event():
-    logger.info(" Server is starting...")
+    logger.info("Server is starting...")
     system_info = {
         "OS": platform.system(),
         "OS Version": platform.version(),
@@ -65,19 +77,27 @@ async def startup_event():
         "Python Version": platform.python_version(),
     }
     logger.info(f"System Info: {system_info}")
-    asyncio.create_task(log_system_stats())  # Start non-blocking system monitoring
+    asyncio.create_task(log_server_stats())
+
+@app.on_event("shutdown")
+def shutdown_event():
+    logger.info("Application is shutting down...")
 
 # Middleware for Logging Requests & Responses
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     start_time = time.time()
-    logger.info(f"➡ Incoming Request: {request.method} {request.url}")
+    client_ip = request.client.host if request.client else "Unknown"
+    logger.info(f"➡ Incoming Request: {request.method} {request.url} from {client_ip}")
     logger.debug(f"Headers: {dict(request.headers)}")
 
     try:
         request_body = await request.body()
         if request_body:
-            logger.debug(f"Request Body: {request_body.decode('utf-8')}")
+            try:
+                logger.debug(f"Request Body: {request_body.decode('utf-8', errors='ignore')}")
+            except Exception:
+                logger.debug("Request body decoding failed")
     except Exception:
         logger.debug("Unable to read request body")
 
@@ -102,25 +122,10 @@ def home(request: Request, name: str = "Guest"):
 def product_detail(request: Request, product_id: int):
     logger.info(f"Fetching Product: ID {product_id}")
     product = next((p for p in DUMMY_PRODUCTS if p["id"] == product_id), None)
-
     if product is None:
         logger.warning(f"Product ID {product_id} not found")
         return templates.TemplateResponse("404.html", {"request": request}, status_code=404)
-
     return templates.TemplateResponse("product.html", {"request": request, "product": product})
-
-# Add to Cart Route
-@app.post("/add-to-cart/{product_id}")
-@limiter.limit("5/minute")
-async def add_to_cart(request: Request, product_id: int):
-    product = next((p for p in DUMMY_PRODUCTS if p["id"] == product_id), None)
-
-    if product is None:
-        logger.warning(f"Add to Cart failed: Product ID {product_id} not found")
-        return JSONResponse(content={"error": "Product not found"}, status_code=404)
-
-    logger.info(f"Product added to cart: {product['name']} (ID: {product_id})")
-    return JSONResponse(content={"message": f"Added {product['name']} to cart!"}, status_code=200)
 
 # Catch-All Undefined Routes
 @app.get("/{full_path:path}")
@@ -134,19 +139,15 @@ async def global_exception_handler(request: Request, exc: Exception):
     logger.error(f"Unhandled Exception: {str(exc)}", exc_info=True)
     return JSONResponse(content={"error": "Internal server error"}, status_code=500)
 
-# Shutdown Event Logging
-@app.on_event("shutdown")
-def shutdown_event():
-    logger.info("Application is shutting down...")
-
-# Run Uvicorn Server with Advanced Logging
+# Run Uvicorn Server with Improved Logging
 if __name__ == "__main__":
     logger.info("Starting Uvicorn server...")
     uvicorn.run(
         "main:app",
-        host="0.0.0.0",
+        host="127.0.0.1",
         port=8000,
         reload=True,
-        log_level="debug",
+        log_config=None,
+        log_level="trace",
         access_log=True,
     )
