@@ -9,30 +9,31 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
-from loguru import logger
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 from slowapi.middleware import SlowAPIMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 
-# Create logs directory if not exists
+# Create logs directory if it doesn't exist
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
-# Configure Loguru Logging
+# Configure logging
 LOG_FILE = os.path.join(LOG_DIR, "server.log")
-logger.remove()
-logger.add(LOG_FILE, level="TRACE", format="{time:YYYY-MM-DD hh:mm:ss A} | {level} | {message}", rotation="10MB", compression="zip")
 
-# Redirect standard logging to Loguru
-class InterceptHandler(logging.Handler):
-    def emit(self, record):
-        logger_opt = logger.opt(depth=6, exception=record.exc_info)
-        logger_opt.log(record.levelno, record.getMessage())
+logging.basicConfig(
+    level=logging.NOTSET,  # Capture all log levels
+    format="%(asctime)s - %(levelname)s - %(name)s - %(filename)s:%(lineno)d - %(funcName)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
-logging.basicConfig(handlers=[InterceptHandler()], level=logging.NOTSET)
-for log_name in ["uvicorn", "uvicorn.error", "uvicorn.access"]:
-    logging.getLogger(log_name).handlers = [InterceptHandler()]
+# Enable logging for all dependencies
+for logger_name in logging.root.manager.loggerDict:
+    logging.getLogger(logger_name).setLevel(logging.NOTSET)
 
 # FastAPI Application
 app = FastAPI()
@@ -51,6 +52,7 @@ DUMMY_PRODUCTS = [
     {"id": 1, "name": "Laptop", "price": 1500, "description": "A high-performance laptop"},
     {"id": 2, "name": "Smartphone", "price": 800, "description": "A smartphone with a great camera"},
     {"id": 3, "name": "Headphones", "price": 200, "description": "Noise-canceling headphones"},
+
 ]
 
 logger.info("FastAPI Application is starting...")
@@ -61,7 +63,7 @@ async def log_server_stats():
     while True:
         cpu_usage = process.cpu_percent(interval=1)
         memory_info = process.memory_info().rss / (1024 ** 2)  # Convert to MB
-        logger.info(f"Server Stats: CPU {cpu_usage}% | Memory {memory_info:.2f}MB")
+        logger.debug(f"Server Stats: CPU {cpu_usage}% | Memory {memory_info:.2f}MB")
         await asyncio.sleep(30)
 
 # Use FastAPI lifespan for startup and shutdown
@@ -76,7 +78,7 @@ async def startup_event():
         "Memory": f"{round(psutil.virtual_memory().total / (1024 ** 3), 2)} GB",
         "Python Version": platform.python_version(),
     }
-    logger.info(f"System Info: {system_info}")
+    logger.debug(f"System Info: {system_info}")
     asyncio.create_task(log_server_stats())
 
 @app.on_event("shutdown")
@@ -88,16 +90,13 @@ def shutdown_event():
 async def log_requests(request: Request, call_next):
     start_time = time.time()
     client_ip = request.client.host if request.client else "Unknown"
-    logger.info(f"➡ Incoming Request: {request.method} {request.url} from {client_ip}")
+    logger.info(f" Incoming Request: {request.method} {request.url} from {client_ip}")
     logger.debug(f"Headers: {dict(request.headers)}")
 
     try:
         request_body = await request.body()
         if request_body:
-            try:
-                logger.debug(f"Request Body: {request_body.decode('utf-8', errors='ignore')}")
-            except Exception:
-                logger.debug("Request body decoding failed")
+            logger.debug(f"Request Body: {request_body.decode('utf-8', errors='ignore')}")
     except Exception:
         logger.debug("Unable to read request body")
 
@@ -109,6 +108,7 @@ async def log_requests(request: Request, call_next):
 
     duration = time.time() - start_time
     logger.info(f"Response Sent: {response.status_code} (Processed in {duration:.4f} seconds)")
+    logger.debug(f"Response Headers: {dict(response.headers)}")
     return response
 
 # Homepage Route

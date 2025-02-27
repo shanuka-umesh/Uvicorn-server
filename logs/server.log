@@ -4286,3 +4286,386 @@ asyncio.exceptions.CancelledError
 2025-02-26 09:55:49 AM | Level 5 | 127.0.0.1:51062 - ASGI [2] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
 2025-02-26 09:55:49 AM | Level 5 | 127.0.0.1:51062 - ASGI [2] Completed
 2025-02-26 09:55:49 AM | Level 5 | 127.0.0.1:51062 - ASGI [2] Completed
+2025-02-26 09:55:54 AM | Level 5 | 127.0.0.1:51062 - HTTP connection lost
+2025-02-26 09:55:54 AM | Level 5 | 127.0.0.1:51062 - HTTP connection lost
+2025-02-26 09:55:54 AM | Level 5 | 127.0.0.1:51062 - HTTP connection lost
+2025-02-26 09:56:10 AM | INFO | Server Stats: CPU 0.0% | Memory 55.86MB
+2025-02-26 09:56:41 AM | INFO | Server Stats: CPU 0.0% | Memory 55.81MB
+2025-02-26 09:57:05 AM | Level 5 | 127.0.0.1:51063 - HTTP connection lost
+2025-02-26 09:57:05 AM | Level 5 | 127.0.0.1:51063 - HTTP connection lost
+2025-02-26 09:57:05 AM | Level 5 | 127.0.0.1:51063 - HTTP connection lost
+2025-02-26 09:57:12 AM | INFO | Server Stats: CPU 0.0% | Memory 56.04MB
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - HTTP connection made
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - HTTP connection made
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - HTTP connection made
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51147 - HTTP connection made
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51147 - HTTP connection made
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51147 - HTTP connection made
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51146), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/product/2', 'raw_path': b'/product/2', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51146), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/product/2', 'raw_path': b'/product/2', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 09:57:36 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/product/2 from 127.0.0.1
+2025-02-26 09:57:36 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:57:36 AM | INFO | Fetching Product: ID 2
+2025-02-26 09:57:36 AM | INFO | Response Sent: 200 (Processed in 0.0050 seconds)
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 09:57:36 AM | Level 20 | 127.0.0.1:51146 - "GET /product/2 HTTP/1.1" 200
+2025-02-26 09:57:36 AM | Level 20 | 127.0.0.1:51146 - "GET /product/2 HTTP/1.1" 200
+2025-02-26 09:57:36 AM | Level 20 | 127.0.0.1:51146 - "GET /product/2 HTTP/1.1" 200
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Send {'type': 'http.response.body', 'body': '<755 bytes>', 'more_body': True}
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Send {'type': 'http.response.body', 'body': '<755 bytes>', 'more_body': True}
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Completed
+2025-02-26 09:57:36 AM | Level 5 | 127.0.0.1:51146 - ASGI [3] Completed
+2025-02-26 09:57:41 AM | Level 5 | 127.0.0.1:51146 - HTTP connection lost
+2025-02-26 09:57:41 AM | Level 5 | 127.0.0.1:51146 - HTTP connection lost
+2025-02-26 09:57:41 AM | Level 5 | 127.0.0.1:51146 - HTTP connection lost
+2025-02-26 09:57:43 AM | INFO | Server Stats: CPU 0.0% | Memory 56.10MB
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51168 - HTTP connection made
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51168 - HTTP connection made
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51168 - HTTP connection made
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51147), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/', 'raw_path': b'/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51147), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/', 'raw_path': b'/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 09:57:54 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/ from 127.0.0.1
+2025-02-26 09:57:54 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/product/2', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:57:54 AM | INFO | Processing homepage request with name: Guest
+2025-02-26 09:57:54 AM | INFO | Response Sent: 200 (Processed in 0.0030 seconds)
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 09:57:54 AM | Level 20 | 127.0.0.1:51147 - "GET / HTTP/1.1" 200
+2025-02-26 09:57:54 AM | Level 20 | 127.0.0.1:51147 - "GET / HTTP/1.1" 200
+2025-02-26 09:57:54 AM | Level 20 | 127.0.0.1:51147 - "GET / HTTP/1.1" 200
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Send {'type': 'http.response.body', 'body': '<585 bytes>', 'more_body': True}
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Send {'type': 'http.response.body', 'body': '<585 bytes>', 'more_body': True}
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Completed
+2025-02-26 09:57:54 AM | Level 5 | 127.0.0.1:51147 - ASGI [4] Completed
+2025-02-26 09:57:59 AM | Level 5 | 127.0.0.1:51147 - HTTP connection lost
+2025-02-26 09:57:59 AM | Level 5 | 127.0.0.1:51147 - HTTP connection lost
+2025-02-26 09:57:59 AM | Level 5 | 127.0.0.1:51147 - HTTP connection lost
+2025-02-26 09:58:11 AM | Level 5 | 127.0.0.1:51168 - HTTP connection lost
+2025-02-26 09:58:11 AM | Level 5 | 127.0.0.1:51168 - HTTP connection lost
+2025-02-26 09:58:11 AM | Level 5 | 127.0.0.1:51168 - HTTP connection lost
+2025-02-26 09:58:14 AM | INFO | Server Stats: CPU 0.0% | Memory 56.36MB
+2025-02-26 09:58:45 AM | INFO | Server Stats: CPU 0.0% | Memory 56.36MB
+2025-02-26 09:59:16 AM | INFO | Server Stats: CPU 0.0% | Memory 56.33MB
+2025-02-26 09:59:21 AM | Level 5 | 127.0.0.1:51231 - HTTP connection made
+2025-02-26 09:59:21 AM | Level 5 | 127.0.0.1:51231 - HTTP connection made
+2025-02-26 09:59:21 AM | Level 5 | 127.0.0.1:51231 - HTTP connection made
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51233 - HTTP connection made
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51233 - HTTP connection made
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51233 - HTTP connection made
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51231), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/product/3', 'raw_path': b'/product/3', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51231), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/product/3', 'raw_path': b'/product/3', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 09:59:22 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/product/3 from 127.0.0.1
+2025-02-26 09:59:22 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:59:22 AM | INFO | Fetching Product: ID 3
+2025-02-26 09:59:22 AM | INFO | Response Sent: 200 (Processed in 0.0020 seconds)
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 09:59:22 AM | Level 20 | 127.0.0.1:51231 - "GET /product/3 HTTP/1.1" 200
+2025-02-26 09:59:22 AM | Level 20 | 127.0.0.1:51231 - "GET /product/3 HTTP/1.1" 200
+2025-02-26 09:59:22 AM | Level 20 | 127.0.0.1:51231 - "GET /product/3 HTTP/1.1" 200
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Send {'type': 'http.response.body', 'body': '<752 bytes>', 'more_body': True}
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Send {'type': 'http.response.body', 'body': '<752 bytes>', 'more_body': True}
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Completed
+2025-02-26 09:59:22 AM | Level 5 | 127.0.0.1:51231 - ASGI [5] Completed
+2025-02-26 09:59:27 AM | Level 5 | 127.0.0.1:51231 - HTTP connection lost
+2025-02-26 09:59:27 AM | Level 5 | 127.0.0.1:51231 - HTTP connection lost
+2025-02-26 09:59:27 AM | Level 5 | 127.0.0.1:51231 - HTTP connection lost
+2025-02-26 09:59:47 AM | INFO | Server Stats: CPU 0.0% | Memory 56.34MB
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51259 - HTTP connection made
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51259 - HTTP connection made
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51259 - HTTP connection made
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51233), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/', 'raw_path': b'/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51233), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/', 'raw_path': b'/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 09:59:57 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/ from 127.0.0.1
+2025-02-26 09:59:57 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/product/3', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:59:57 AM | INFO | Processing homepage request with name: Guest
+2025-02-26 09:59:57 AM | INFO | Response Sent: 200 (Processed in 0.0020 seconds)
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 09:59:57 AM | Level 20 | 127.0.0.1:51233 - "GET / HTTP/1.1" 200
+2025-02-26 09:59:57 AM | Level 20 | 127.0.0.1:51233 - "GET / HTTP/1.1" 200
+2025-02-26 09:59:57 AM | Level 20 | 127.0.0.1:51233 - "GET / HTTP/1.1" 200
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Send {'type': 'http.response.body', 'body': '<585 bytes>', 'more_body': True}
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Send {'type': 'http.response.body', 'body': '<585 bytes>', 'more_body': True}
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Completed
+2025-02-26 09:59:57 AM | Level 5 | 127.0.0.1:51233 - ASGI [6] Completed
+2025-02-26 10:00:02 AM | Level 5 | 127.0.0.1:51233 - HTTP connection lost
+2025-02-26 10:00:02 AM | Level 5 | 127.0.0.1:51233 - HTTP connection lost
+2025-02-26 10:00:02 AM | Level 5 | 127.0.0.1:51233 - HTTP connection lost
+2025-02-26 10:00:18 AM | INFO | Server Stats: CPU 0.0% | Memory 56.35MB
+2025-02-26 10:00:49 AM | INFO | Server Stats: CPU 0.0% | Memory 56.36MB
+2025-02-26 10:01:10 AM | Level 5 | 127.0.0.1:51259 - HTTP connection lost
+2025-02-26 10:01:10 AM | Level 5 | 127.0.0.1:51259 - HTTP connection lost
+2025-02-26 10:01:10 AM | Level 5 | 127.0.0.1:51259 - HTTP connection lost
+2025-02-26 10:01:20 AM | INFO | Server Stats: CPU 0.0% | Memory 56.36MB
+2025-02-26 10:01:51 AM | INFO | Server Stats: CPU 0.0% | Memory 56.36MB
+2025-02-26 10:02:22 AM | INFO | Server Stats: CPU 0.0% | Memory 56.34MB
+2025-02-26 10:02:53 AM | INFO | Server Stats: CPU 0.0% | Memory 56.34MB
+2025-02-26 10:03:24 AM | INFO | Server Stats: CPU 0.0% | Memory 56.34MB
+2025-02-26 10:03:55 AM | INFO | Server Stats: CPU 0.0% | Memory 56.34MB
+2025-02-26 10:04:26 AM | INFO | Server Stats: CPU 0.0% | Memory 56.34MB
+2025-02-26 10:04:57 AM | INFO | Server Stats: CPU 0.0% | Memory 56.34MB
+2025-02-26 10:05:28 AM | INFO | Server Stats: CPU 0.0% | Memory 56.34MB
+2025-02-26 10:05:59 AM | INFO | Server Stats: CPU 0.0% | Memory 56.38MB
+2025-02-26 10:06:30 AM | INFO | Server Stats: CPU 0.0% | Memory 56.38MB
+2025-02-26 10:06:34 AM | Level 30 | StatReload detected changes in 'main.py'. Reloading...
+2025-02-26 10:06:34 AM | Level 30 | StatReload detected changes in 'main.py'. Reloading...
+2025-02-26 10:06:34 AM | Level 30 | StatReload detected changes in 'main.py'. Reloading...
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - HTTP connection made
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - HTTP connection made
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - HTTP connection made
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51560 - HTTP connection made
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51560 - HTTP connection made
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51560 - HTTP connection made
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51559), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/product/1', 'raw_path': b'/product/1', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51559), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/product/1', 'raw_path': b'/product/1', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 10:06:37 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/product/1 from 127.0.0.1
+2025-02-26 10:06:37 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:06:37 AM | INFO | Fetching Product: ID 1
+2025-02-26 10:06:37 AM | INFO | Response Sent: 200 (Processed in 0.0031 seconds)
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 10:06:37 AM | Level 20 | 127.0.0.1:51559 - "GET /product/1 HTTP/1.1" 200
+2025-02-26 10:06:37 AM | Level 20 | 127.0.0.1:51559 - "GET /product/1 HTTP/1.1" 200
+2025-02-26 10:06:37 AM | Level 20 | 127.0.0.1:51559 - "GET /product/1 HTTP/1.1" 200
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Send {'type': 'http.response.body', 'body': '<752 bytes>', 'more_body': True}
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Send {'type': 'http.response.body', 'body': '<752 bytes>', 'more_body': True}
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Completed
+2025-02-26 10:06:37 AM | Level 5 | 127.0.0.1:51559 - ASGI [7] Completed
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51559), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/product/1', 'raw_path': b'/product/1', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51559), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/product/1', 'raw_path': b'/product/1', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 10:06:39 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/product/1 from 127.0.0.1
+2025-02-26 10:06:39 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:06:39 AM | INFO | Fetching Product: ID 1
+2025-02-26 10:06:39 AM | INFO | Response Sent: 200 (Processed in 0.0021 seconds)
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 10:06:39 AM | Level 20 | 127.0.0.1:51559 - "GET /product/1 HTTP/1.1" 200
+2025-02-26 10:06:39 AM | Level 20 | 127.0.0.1:51559 - "GET /product/1 HTTP/1.1" 200
+2025-02-26 10:06:39 AM | Level 20 | 127.0.0.1:51559 - "GET /product/1 HTTP/1.1" 200
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Send {'type': 'http.response.body', 'body': '<752 bytes>', 'more_body': True}
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Send {'type': 'http.response.body', 'body': '<752 bytes>', 'more_body': True}
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Completed
+2025-02-26 10:06:39 AM | Level 5 | 127.0.0.1:51559 - ASGI [8] Completed
+2025-02-26 10:06:44 AM | Level 5 | 127.0.0.1:51559 - HTTP connection lost
+2025-02-26 10:06:44 AM | Level 5 | 127.0.0.1:51559 - HTTP connection lost
+2025-02-26 10:06:44 AM | Level 5 | 127.0.0.1:51559 - HTTP connection lost
+2025-02-26 10:07:01 AM | INFO | Server Stats: CPU 0.0% | Memory 56.38MB
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51560), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/add-to-cart/1', 'raw_path': b'/add-to-cart/1', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51560), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/add-to-cart/1', 'raw_path': b'/add-to-cart/1', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 10:07:20 AM | INFO | ➡ Incoming Request: POST http://127.0.0.1:8000/add-to-cart/1 from 127.0.0.1
+2025-02-26 10:07:20 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/product/1', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:07:20 AM | INFO | Response Sent: 405 (Processed in 0.0029 seconds)
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Send {'type': 'http.response.start', 'status': 405, 'headers': '<...>'}
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Send {'type': 'http.response.start', 'status': 405, 'headers': '<...>'}
+2025-02-26 10:07:20 AM | Level 20 | 127.0.0.1:51560 - "POST /add-to-cart/1 HTTP/1.1" 405
+2025-02-26 10:07:20 AM | Level 20 | 127.0.0.1:51560 - "POST /add-to-cart/1 HTTP/1.1" 405
+2025-02-26 10:07:20 AM | Level 20 | 127.0.0.1:51560 - "POST /add-to-cart/1 HTTP/1.1" 405
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Send {'type': 'http.response.body', 'body': '<31 bytes>', 'more_body': True}
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Send {'type': 'http.response.body', 'body': '<31 bytes>', 'more_body': True}
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Completed
+2025-02-26 10:07:20 AM | Level 5 | 127.0.0.1:51560 - ASGI [9] Completed
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51595 - HTTP connection made
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51595 - HTTP connection made
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51595 - HTTP connection made
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51560), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/', 'raw_path': b'/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Started scope={'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 51560), 'scheme': 'http', 'method': 'GET', 'root_path': '', 'path': '/', 'raw_path': b'/', 'query_string': b'', 'headers': '<...>', 'state': {}}
+2025-02-26 10:07:24 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/ from 127.0.0.1
+2025-02-26 10:07:24 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/product/1', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Receive {'type': 'http.request', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:07:24 AM | INFO | Processing homepage request with name: Guest
+2025-02-26 10:07:24 AM | INFO | Response Sent: 200 (Processed in 0.0020 seconds)
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Send {'type': 'http.response.start', 'status': 200, 'headers': '<...>'}
+2025-02-26 10:07:24 AM | Level 20 | 127.0.0.1:51560 - "GET / HTTP/1.1" 200
+2025-02-26 10:07:24 AM | Level 20 | 127.0.0.1:51560 - "GET / HTTP/1.1" 200
+2025-02-26 10:07:24 AM | Level 20 | 127.0.0.1:51560 - "GET / HTTP/1.1" 200
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Send {'type': 'http.response.body', 'body': '<585 bytes>', 'more_body': True}
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Send {'type': 'http.response.body', 'body': '<585 bytes>', 'more_body': True}
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Send {'type': 'http.response.body', 'body': '<0 bytes>', 'more_body': False}
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Completed
+2025-02-26 10:07:24 AM | Level 5 | 127.0.0.1:51560 - ASGI [10] Completed
+2025-02-26 10:07:29 AM | Level 5 | 127.0.0.1:51560 - HTTP connection lost
+2025-02-26 10:07:29 AM | Level 5 | 127.0.0.1:51560 - HTTP connection lost
+2025-02-26 10:07:29 AM | Level 5 | 127.0.0.1:51560 - HTTP connection lost
+2025-02-26 10:07:32 AM | INFO | Server Stats: CPU 0.0% | Memory 56.40MB
+2025-02-26 10:07:33 AM | Level 20 | Shutting down
+2025-02-26 10:07:33 AM | Level 20 | Shutting down
+2025-02-26 10:07:33 AM | Level 20 | Shutting down
+2025-02-26 10:07:33 AM | Level 5 | 127.0.0.1:51595 - HTTP connection lost
+2025-02-26 10:07:33 AM | Level 5 | 127.0.0.1:51595 - HTTP connection lost
+2025-02-26 10:07:33 AM | Level 5 | 127.0.0.1:51595 - HTTP connection lost
+2025-02-26 10:07:33 AM | Level 20 | Waiting for application shutdown.
+2025-02-26 10:07:33 AM | Level 20 | Waiting for application shutdown.
+2025-02-26 10:07:33 AM | Level 20 | Waiting for application shutdown.
+2025-02-26 10:07:33 AM | Level 5 | ASGI [1] Receive {'type': 'lifespan.shutdown'}
+2025-02-26 10:07:33 AM | Level 5 | ASGI [1] Receive {'type': 'lifespan.shutdown'}
+2025-02-26 10:07:33 AM | INFO | Application is shutting down...
+2025-02-26 10:07:33 AM | Level 5 | ASGI [1] Send {'type': 'lifespan.shutdown.complete'}
+2025-02-26 10:07:33 AM | Level 5 | ASGI [1] Send {'type': 'lifespan.shutdown.complete'}
+2025-02-26 10:07:33 AM | Level 5 | ASGI [1] Completed
+2025-02-26 10:07:33 AM | Level 5 | ASGI [1] Completed
+2025-02-26 10:07:33 AM | Level 20 | Application shutdown complete.
+2025-02-26 10:07:33 AM | Level 20 | Application shutdown complete.
+2025-02-26 10:07:33 AM | Level 20 | Application shutdown complete.
+2025-02-26 10:07:33 AM | Level 20 | Finished server process [3076]
+2025-02-26 10:07:33 AM | Level 20 | Finished server process [3076]
+2025-02-26 10:07:33 AM | Level 20 | Finished server process [3076]
+2025-02-26 10:07:34 AM | Level 20 | Stopping reloader process [11752]
+2025-02-26 10:07:34 AM | Level 20 | Stopping reloader process [11752]
+2025-02-26 10:07:34 AM | Level 20 | Stopping reloader process [11752]
+2025-02-26 10:07:50 AM | INFO | FastAPI Application is starting...
+2025-02-26 10:07:50 AM | INFO | Starting Uvicorn server...
+2025-02-26 10:07:51 AM | INFO | FastAPI Application is starting...
+2025-02-26 10:07:51 AM | Level 10 | Using selector: SelectSelector
+2025-02-26 10:07:51 AM | INFO | FastAPI Application is starting...
+2025-02-26 10:07:51 AM | Level 20 | Started server process [14984]
+2025-02-26 10:07:51 AM | Level 20 | Started server process [14984]
+2025-02-26 10:07:51 AM | Level 20 | Waiting for application startup.
+2025-02-26 10:07:51 AM | Level 20 | Waiting for application startup.
+2025-02-26 10:07:51 AM | INFO | Server is starting...
+2025-02-26 10:07:51 AM | INFO | System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-26 10:07:52 AM | INFO | Server Stats: CPU 0.0% | Memory 55.46MB
+2025-02-26 10:07:52 AM | Level 20 | Application startup complete.
+2025-02-26 10:07:52 AM | Level 20 | Application startup complete.
+2025-02-26 10:08:12 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/ from 127.0.0.1
+2025-02-26 10:08:12 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 10:08:12 AM | INFO | Processing homepage request with name: Guest
+2025-02-26 10:08:12 AM | INFO | Response Sent: 200 (Processed in 0.0133 seconds)
+2025-02-26 10:08:12 AM | Level 20 | 127.0.0.1:51631 - "GET / HTTP/1.1" 200
+2025-02-26 10:08:23 AM | INFO | Server Stats: CPU 0.0% | Memory 55.88MB
+2025-02-26 10:08:42 AM | Level 20 | Shutting down
+2025-02-26 10:08:42 AM | Level 20 | Shutting down
+2025-02-26 10:08:42 AM | Level 20 | Waiting for application shutdown.
+2025-02-26 10:08:42 AM | Level 20 | Waiting for application shutdown.
+2025-02-26 10:08:42 AM | INFO | Application is shutting down...
+2025-02-26 10:08:42 AM | Level 20 | Application shutdown complete.
+2025-02-26 10:08:42 AM | Level 20 | Application shutdown complete.
+2025-02-26 10:08:42 AM | Level 20 | Finished server process [14984]
+2025-02-26 10:08:42 AM | Level 20 | Finished server process [14984]
+2025-02-26 10:08:43 AM | INFO | FastAPI Application is starting...
+2025-02-26 10:08:43 AM | Level 10 | Using selector: SelectSelector
+2025-02-26 10:08:43 AM | INFO | FastAPI Application is starting...
+2025-02-26 10:08:43 AM | Level 20 | Started server process [15984]
+2025-02-26 10:08:43 AM | Level 20 | Started server process [15984]
+2025-02-26 10:08:43 AM | Level 20 | Waiting for application startup.
+2025-02-26 10:08:43 AM | Level 20 | Waiting for application startup.
+2025-02-26 10:08:43 AM | INFO | Server is starting...
+2025-02-26 10:08:43 AM | INFO | System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-26 10:08:44 AM | INFO | Server Stats: CPU 0.0% | Memory 55.70MB
+2025-02-26 10:08:44 AM | Level 20 | Application startup complete.
+2025-02-26 10:08:44 AM | Level 20 | Application startup complete.
+2025-02-26 10:08:55 AM | INFO | ➡ Incoming Request: GET http://127.0.0.1:8000/product/2 from 127.0.0.1
+2025-02-26 10:08:55 AM | DEBUG | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'referer': 'http://127.0.0.1:8000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7'}
+2025-02-26 10:08:55 AM | INFO | Fetching Product: ID 2
+2025-02-26 10:08:55 AM | INFO | Response Sent: 200 (Processed in 0.0060 seconds)
+2025-02-26 10:08:55 AM | Level 20 | 127.0.0.1:51661 - "GET /product/2 HTTP/1.1" 200
+2025-02-26 10:09:05 AM | Level 20 | Shutting down
+2025-02-26 10:09:05 AM | Level 20 | Shutting down
+2025-02-26 10:09:05 AM | Level 20 | Waiting for application shutdown.
+2025-02-26 10:09:05 AM | Level 20 | Waiting for application shutdown.
+2025-02-26 10:09:05 AM | INFO | Application is shutting down...
+2025-02-26 10:09:05 AM | Level 20 | Application shutdown complete.
+2025-02-26 10:09:05 AM | Level 20 | Application shutdown complete.
+2025-02-26 10:09:05 AM | Level 20 | Finished server process [15984]
+2025-02-26 10:09:05 AM | Level 20 | Finished server process [15984]
+2025-02-26 10:09:12 AM | INFO | FastAPI Application is starting...
+2025-02-26 10:09:12 AM | INFO | Starting Uvicorn server...
+2025-02-26 10:09:12 AM | Level 20 | Will watch for changes in these directories: ['C:\\Users\\shanu\\Documents\\GitHub\\Uvicorn-server']
+2025-02-26 10:09:12 AM | Level 20 | Will watch for changes in these directories: ['C:\\Users\\shanu\\Documents\\GitHub\\Uvicorn-server']
+2025-02-26 10:09:12 AM | Level 20 | Will watch for changes in these directories: ['C:\\Users\\shanu\\Documents\\GitHub\\Uvicorn-server']
+2025-02-26 10:09:12 AM | Level 20 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-02-26 10:09:12 AM | Level 20 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-02-26 10:09:12 AM | Level 20 | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-02-26 10:09:12 AM | Level 20 | Started reloader process [8224] using StatReload
+2025-02-26 10:09:12 AM | Level 20 | Started reloader process [8224] using StatReload
+2025-02-26 10:09:12 AM | Level 20 | Started reloader process [8224] using StatReload
+2025-02-26 10:09:13 AM | INFO | FastAPI Application is starting...
+2025-02-26 10:09:13 AM | Level 10 | Using selector: SelectSelector
+2025-02-26 10:09:13 AM | INFO | FastAPI Application is starting...
+2025-02-26 10:09:13 AM | Level 20 | Started server process [5576]
+2025-02-26 10:09:13 AM | Level 20 | Started server process [5576]
+2025-02-26 10:09:13 AM | Level 20 | Started server process [5576]
+2025-02-26 10:09:13 AM | Level 20 | Waiting for application startup.
+2025-02-26 10:09:13 AM | Level 20 | Waiting for application startup.
+2025-02-26 10:09:13 AM | Level 20 | Waiting for application startup.
+2025-02-26 10:09:13 AM | Level 5 | ASGI [1] Started scope={'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}}
+2025-02-26 10:09:13 AM | Level 5 | ASGI [1] Started scope={'type': 'lifespan', 'asgi': {'version': '3.0', 'spec_version': '2.0'}, 'state': {}}
+2025-02-26 10:09:13 AM | Level 5 | ASGI [1] Receive {'type': 'lifespan.startup'}
+2025-02-26 10:09:13 AM | Level 5 | ASGI [1] Receive {'type': 'lifespan.startup'}
+2025-02-26 10:09:13 AM | INFO | Server is starting...
+2025-02-26 10:09:13 AM | INFO | System Info: {'OS': 'Windows', 'OS Version': '10.0.19045', 'Processor': 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel', 'CPU Cores': 8, 'Memory': '7.89 GB', 'Python Version': '3.12.6'}
+2025-02-26 10:09:13 AM | Level 5 | ASGI [1] Send {'type': 'lifespan.startup.complete'}
+2025-02-26 10:09:13 AM | Level 5 | ASGI [1] Send {'type': 'lifespan.startup.complete'}
+2025-02-26 10:09:14 AM | INFO | Server Stats: CPU 0.0% | Memory 55.21MB
+2025-02-26 10:09:14 AM | Level 20 | Application startup complete.
+2025-02-26 10:09:14 AM | Level 20 | Application startup complete.
+2025-02-26 10:09:14 AM | Level 20 | Application startup complete.
+2025-02-26 10:09:45 AM | INFO | Server Stats: CPU 0.0% | Memory 55.23MB
+2025-02-26 10:10:16 AM | INFO | Server Stats: CPU 0.0% | Memory 55.18MB
+2025-02-26 10:10:47 AM | INFO | Server Stats: CPU 0.0% | Memory 55.18MB
+2025-02-26 10:11:18 AM | INFO | Server Stats: CPU 0.0% | Memory 55.17MB
+2025-02-26 10:11:49 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:12:20 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:12:51 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:13:22 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:13:53 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:14:24 AM | INFO | Server Stats: CPU 0.0% | Memory 55.15MB
+2025-02-26 10:14:55 AM | INFO | Server Stats: CPU 0.0% | Memory 55.15MB
+2025-02-26 10:15:26 AM | INFO | Server Stats: CPU 0.0% | Memory 55.15MB
+2025-02-26 10:15:57 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:16:28 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:16:59 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:17:30 AM | INFO | Server Stats: CPU 0.0% | Memory 55.14MB
+2025-02-26 10:18:01 AM | INFO | Server Stats: CPU 0.0% | Memory 54.70MB
+2025-02-26 10:18:32 AM | INFO | Server Stats: CPU 0.0% | Memory 54.70MB
+2025-02-26 10:19:03 AM | INFO | Server Stats: CPU 0.0% | Memory 54.70MB
+2025-02-26 10:19:34 AM | INFO | Server Stats: CPU 0.0% | Memory 54.73MB
+2025-02-26 10:20:05 AM | INFO | Server Stats: CPU 0.0% | Memory 54.73MB
+2025-02-26 10:20:36 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:21:07 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:21:38 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:22:09 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:22:40 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:23:11 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:23:42 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:24:13 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:24:44 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:25:15 AM | INFO | Server Stats: CPU 0.0% | Memory 54.71MB
+2025-02-26 10:25:46 AM | INFO | Server Stats: CPU 0.0% | Memory 47.58MB
+2025-02-26 10:26:17 AM | INFO | Server Stats: CPU 0.0% | Memory 47.58MB
+2025-02-26 10:26:48 AM | INFO | Server Stats: CPU 0.0% | Memory 47.59MB
+2025-02-26 10:27:19 AM | INFO | Server Stats: CPU 0.0% | Memory 47.59MB
+2025-02-26 10:27:50 AM | INFO | Server Stats: CPU 0.0% | Memory 47.59MB
+2025-02-26 10:28:21 AM | INFO | Server Stats: CPU 0.0% | Memory 47.59MB
